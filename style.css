@@ -1,0 +1,25 @@
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    align-self:center;
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 200px rgb(255, 0, 200);}
+    to{box-shadow: 1px 1px 100px rgb(0, 217, 255);}
+}
+
+#Idea{
+    font-size:32px;
+    border-style:ridge;
+    border-color:goldenrod;
+    border-width:8px;
+}
+
+#Shutter{
+    font-size:20px;
+    border-style:dashed;
+    border-width:2px;
+    border-color:black;
+}
